@@ -1,6 +1,6 @@
 {
     "expo": {
-        "name": "test",
+        "name": "AB Capital",
         "scheme": "my-app",
         "slug": "test",
         "version": "1.0.0",
@@ -26,6 +26,14 @@
             "favicon": "./assets/favicon.png",
             "bundler": "metro"
         },
-        "plugins": ["expo-router"]
+        "plugins": [
+            [
+                "expo-router",
+                {
+                    "root": "./src/app/navigation"
+                }
+            ],
+            "expo-font"
+        ]
     }
 }
