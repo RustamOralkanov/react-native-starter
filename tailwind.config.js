@@ -10,6 +10,7 @@ module.exports = {
                 "gray-100": "#F5F5F5",
                 "gray-400": "#8F8F8F",
                 "gray-900": "#1D1D1D",
+                "info-500": "#3B82F6",
             },
             fontFamily: {
                 "inter-thin": ["Inter-Thin", "sans-serif"],

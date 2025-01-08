@@ -2,10 +2,10 @@ import { useEffect } from "react";
 import { SplashScreen, Stack } from "expo-router";
 import { useFonts } from "expo-font";
 import { TamaguiProvider } from "tamagui";
-import { tamaguiConfig } from "../../../tamagui.config";
+import { tamaguiConfig } from "../../tamagui.config";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 
-import "../../../global.css";
+import "../../global.css";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -31,7 +31,9 @@ const RootLayout = () => {
         <SafeAreaProvider>
             <TamaguiProvider config={tamaguiConfig}>
                 <Stack>
-                    <Stack.Screen name="index" options={{ headerShown: false, title: "Home Screen" }} />
+                    <Stack.Screen name="index" options={{ headerShown: false }} />
+                    <Stack.Screen name="(auth)" options={{ headerShown: false }} />
+                    <Stack.Screen name="(main)" options={{ headerShown: false }} />
                 </Stack>
             </TamaguiProvider>
         </SafeAreaProvider>

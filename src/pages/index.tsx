@@ -3,12 +3,12 @@ import { Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Button, Image } from "tamagui";
 
-const Main = () => {
+const WelcomePage = () => {
     const router = useRouter();
 
     const handleLanguageSelect = (lang: string) => {
         console.log(lang);
-        router.push({ pathname: "/register", params: { lang } });
+        router.push({ pathname: "main-page", params: { lang } });
     };
     return (
         <SafeAreaView className="flex-1 bg-primary-500 justify-between items-center px-5">
@@ -30,4 +30,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default WelcomePage;

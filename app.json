@@ -30,7 +30,7 @@
             [
                 "expo-router",
                 {
-                    "root": "./src/app/navigation"
+                    "root": "./src/pages"
                 }
             ],
             "expo-font"

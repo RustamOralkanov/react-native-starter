@@ -26254,6 +26254,9 @@ var require_useColorScheme = __commonJS({
     function useColorScheme() {
       var _React$useState = React81.useState(_Appearance.default.getColorScheme()), colorScheme = _React$useState[0], setColorScheme = _React$useState[1];
       React81.useEffect(() => {
+        function listener(appearance) {
+          setColorScheme(appearance.colorScheme);
+        }
         __name(listener, "listener");
         var _Appearance$addChange = _Appearance.default.addChangeListener(listener), remove = _Appearance$addChange.remove;
         return remove;

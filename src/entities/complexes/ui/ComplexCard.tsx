@@ -1,14 +1,10 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-const Register = () => {
+export const ComplexCard = () => {
     return (
         <View>
-            <Text>Register</Text>
+            <Text>ComplexCard</Text>
         </View>
     );
 };
-
-export default Register;
-
-const styles = StyleSheet.create({});
