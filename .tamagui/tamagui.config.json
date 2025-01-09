@@ -34380,6 +34380,7 @@
       "body": {
         "family": "Inter-Light, sans-serif",
         "size": {
+          "2": 16,
           "3": 14
         }
       }
@@ -46410,6 +46411,13 @@
           "name": "c-color-gray100",
           "val": "#F5F5F5",
           "variable": "var(--c-color-gray100)"
+        },
+        "info500": {
+          "isVar": true,
+          "key": "$info500",
+          "name": "c-color-info500",
+          "val": "#3B82F6",
+          "variable": "var(--c-color-info500)"
         }
       },
       "radius": {
@@ -48865,6 +48873,13 @@
         "name": "c-color-gray100",
         "val": "#F5F5F5",
         "variable": "var(--c-color-gray100)"
+      },
+      "$color.info500": {
+        "isVar": true,
+        "key": "$info500",
+        "name": "c-color-info500",
+        "val": "#3B82F6",
+        "variable": "var(--c-color-info500)"
       },
       "$radius.0": {
         "isVar": true,

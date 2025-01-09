@@ -4,6 +4,8 @@ import { useFonts } from "expo-font";
 import { TamaguiProvider } from "tamagui";
 import { tamaguiConfig } from "../../tamagui.config";
 import { SafeAreaProvider } from "react-native-safe-area-context";
+import { store } from "@/app/store";
+import { Provider } from "react-redux";
 
 import "../../global.css";
 
@@ -29,13 +31,15 @@ const RootLayout = () => {
 
     return (
         <SafeAreaProvider>
-            <TamaguiProvider config={tamaguiConfig}>
-                <Stack>
-                    <Stack.Screen name="index" options={{ headerShown: false }} />
-                    <Stack.Screen name="(auth)" options={{ headerShown: false }} />
-                    <Stack.Screen name="(main)" options={{ headerShown: false }} />
-                </Stack>
-            </TamaguiProvider>
+            <Provider store={store}>
+                <TamaguiProvider config={tamaguiConfig}>
+                    <Stack>
+                        <Stack.Screen name="index" options={{ headerShown: false }} />
+                        <Stack.Screen name="(auth)" options={{ headerShown: false }} />
+                        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+                    </Stack>
+                </TamaguiProvider>
+            </Provider>
         </SafeAreaProvider>
     );
 };

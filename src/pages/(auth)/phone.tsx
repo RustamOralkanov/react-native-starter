@@ -1,4 +1,3 @@
-import { usePhoneFormat } from "@/shared/helpers";
 import { ArrowLeftIcon } from "@/shared/icons";
 import { CustomInput } from "@/shared/variants";
 import { useRouter } from "expo-router";
@@ -23,7 +22,7 @@ const PhoneAuth = () => {
                 <YStack flex={1} justifyContent="space-between">
                     <View className="flex-col gap-6">
                         <Text className="font-inter-bold text-[32px]">Введите ваш номер телефона</Text>
-                        <CustomInput onChangeText={(e) => usePhoneFormat(e)} placeholder="+7 (___) ___-__-__" keyboardType="numeric" />
+                        <CustomInput placeholder="+7 (___) ___-__-__" keyboardType="numeric" />
                     </View>
                     <View className="flex-col gap-6">
                         <Form.Trigger asChild>

@@ -46835,13 +46835,15 @@ var tamaguiConfig = createTamagui({
     color: {
       ...config.tokens.color,
       $primary500: "#D6ED17",
-      $gray100: "#F5F5F5"
+      $gray100: "#F5F5F5",
+      $info500: "#3B82F6"
     }
   },
   fonts: {
     body: (0, import_core57.createFont)({
       family: "Inter-Light, sans-serif",
       size: {
+        2: 16,
         3: 14
       }
     })

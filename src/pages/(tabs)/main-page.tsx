@@ -1,4 +1,5 @@
 import { ComplexList } from "@/entities/complexes";
+import { PropertiesOffers } from "@/entities/offers";
 import { MainStories } from "@/features/main-stories";
 import { ABIcon, ChevronRightIcon } from "@/shared/icons";
 import { Pressable } from "react-native";
@@ -27,8 +28,9 @@ const MainPage = () => {
                 </XStack>
                 <YStack gap={24}>
                     <MainStories />
+                    <PropertiesOffers />
                     <ComplexList />
-                    <SizableText>sdfsdf</SizableText>
+                    <ComplexList />
                 </YStack>
             </YStack>
         </SafeAreaView>
