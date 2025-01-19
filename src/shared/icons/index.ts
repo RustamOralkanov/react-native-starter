@@ -6,3 +6,4 @@ export { ChairIcon } from "./ChairIcon";
 export { BuildingIcon } from "./BuildingIcon";
 export { MessagesIcon } from "./MessagesIcon";
 export { MenuIcon } from "./MenuIcon";
+export { FilterIcon } from "./FilterIcon";

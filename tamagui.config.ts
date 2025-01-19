@@ -18,6 +18,7 @@ export const tamaguiConfig = createTamagui({
             ...config.tokens.color,
             $primary500: "#D6ED17",
             $gray100: "#F5F5F5",
+            $gray500: "#6C6C6C",
             $info500: "#3B82F6",
         },
     },
