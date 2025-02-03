@@ -46430,12 +46430,26 @@
           "val": "#F5F5F5",
           "variable": "var(--c-color-gray100)"
         },
+        "gray500": {
+          "isVar": true,
+          "key": "$gray500",
+          "name": "c-color-gray500",
+          "val": "#6C6C6C",
+          "variable": "var(--c-color-gray500)"
+        },
         "info500": {
           "isVar": true,
           "key": "$info500",
           "name": "c-color-info500",
           "val": "#3B82F6",
           "variable": "var(--c-color-info500)"
+        },
+        "error500": {
+          "isVar": true,
+          "key": "$error500",
+          "name": "c-color-error500",
+          "val": "#EF4444",
+          "variable": "var(--c-color-error500)"
         }
       },
       "radius": {
@@ -48892,12 +48906,26 @@
         "val": "#F5F5F5",
         "variable": "var(--c-color-gray100)"
       },
+      "$color.gray500": {
+        "isVar": true,
+        "key": "$gray500",
+        "name": "c-color-gray500",
+        "val": "#6C6C6C",
+        "variable": "var(--c-color-gray500)"
+      },
       "$color.info500": {
         "isVar": true,
         "key": "$info500",
         "name": "c-color-info500",
         "val": "#3B82F6",
         "variable": "var(--c-color-info500)"
+      },
+      "$color.error500": {
+        "isVar": true,
+        "key": "$error500",
+        "name": "c-color-error500",
+        "val": "#EF4444",
+        "variable": "var(--c-color-error500)"
       },
       "$radius.0": {
         "isVar": true,

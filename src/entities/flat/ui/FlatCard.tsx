@@ -1,4 +1,6 @@
+import { ArmChairIcon, FireIcon, HeartIcon } from "@/shared/icons";
 import { View, YStack, SizableText, Separator, XStack, Image } from "tamagui";
+import { StyleSheet } from "react-native";
 
 export const FlatCard = () => {
     return (
@@ -35,10 +37,42 @@ export const FlatCard = () => {
                         />
                     </XStack>
                 </YStack>
-
                 <Separator marginVertical={12} borderColor={"$gray100"} />
-                <View px={16} pb={16}></View>
+                <View px={16} pb={16}>
+                    <XStack justifyContent="space-between">
+                        <XStack gap={5}>
+                            <View bg={"$error500"} style={styles.tag}>
+                                <FireIcon />
+                                <SizableText fontSize={12} color={"$white1"}>
+                                    Акция
+                                </SizableText>
+                            </View>
+                            <View bg={"$error500"} style={styles.tag}>
+                                <ArmChairIcon />
+                                <SizableText fontSize={12} color={"$white1"}>
+                                    С отделкой
+                                </SizableText>
+                            </View>
+                            <View bg={"$gray100"} style={styles.tag}>
+                                <SizableText fontSize={12}>С отделкой</SizableText>
+                            </View>
+                        </XStack>
+                        <HeartIcon />
+                    </XStack>
+                </View>
             </YStack>
         </View>
     );
 };
+
+const styles = StyleSheet.create({
+    tag: {
+        display: "flex",
+        flexDirection: "row",
+        height: 24,
+        gap: 5,
+        alignItems: "center",
+        borderRadius: 50,
+        paddingHorizontal: 6,
+    },
+});

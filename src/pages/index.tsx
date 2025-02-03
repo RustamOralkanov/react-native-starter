@@ -10,8 +10,9 @@ const WelcomePage = () => {
         console.log(lang);
         router.push({ pathname: "main-page", params: { lang } });
     };
+
     return (
-        <SafeAreaView className="flex-1 bg-primary-500 justify-between items-center px-5">
+        <SafeAreaView className="flex-1 bg-primary-500 justify-between items-center px-5 py-3">
             <View className="mt-[123px]">
                 <Image src={require("@/shared/assets/images/logo.png")} width={100} height={100} />
             </View>

@@ -7,3 +7,6 @@ export { BuildingIcon } from "./BuildingIcon";
 export { MessagesIcon } from "./MessagesIcon";
 export { MenuIcon } from "./MenuIcon";
 export { FilterIcon } from "./FilterIcon";
+export { FireIcon } from "./FireIcon";
+export { HeartIcon } from "./HeartIcon";
+export { ArmChairIcon } from "./ArmChairIcon";

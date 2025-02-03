@@ -1,7 +1,10 @@
 import { BuildingIcon, ChairIcon, HomeIcon, MenuIcon, MessagesIcon } from "@/shared/icons";
 import { Tabs } from "expo-router";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 const MainLayout = () => {
+    const insets = useSafeAreaInsets();
+
     return (
         <Tabs
             screenOptions={{
@@ -12,9 +15,18 @@ const MainLayout = () => {
                     fontWeight: 300,
                 },
                 tabBarStyle: {
-                    borderTopWidth: 0,
-                    boxShadow: "0px 0px 50px -25px #1D1D1D4D",
+                    backgroundColor: "#ffffff",
+                    shadowColor: "#000",
+                    shadowOffset: {
+                        width: 6,
+                        height: 6,
+                    },
+                    shadowOpacity: 0.6,
+                    shadowRadius: 4,
+                    elevation: 100,
+                    height: 60 + insets.bottom,
                 },
+                headerShadowVisible: true, // Для iOS
             }}
         >
             <Tabs.Screen
