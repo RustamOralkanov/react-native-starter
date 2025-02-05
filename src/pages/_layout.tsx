@@ -6,6 +6,7 @@ import { tamaguiConfig } from "../../tamagui.config";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { store } from "@/app/store";
 import { Provider } from "react-redux";
+import "../../reanimatedConfig";
 
 import "../../global.css";
 

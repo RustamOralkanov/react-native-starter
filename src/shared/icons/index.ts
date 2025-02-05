@@ -10,3 +10,5 @@ export { FilterIcon } from "./FilterIcon";
 export { FireIcon } from "./FireIcon";
 export { HeartIcon } from "./HeartIcon";
 export { ArmChairIcon } from "./ArmChairIcon";
+export { ParkingsIcon } from "./ParkingsIcon";
+export { StorageIcon } from "./StorageIcon";

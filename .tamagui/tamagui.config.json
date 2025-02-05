@@ -46437,6 +46437,13 @@
           "val": "#6C6C6C",
           "variable": "var(--c-color-gray500)"
         },
+        "gray900": {
+          "isVar": true,
+          "key": "$gray900",
+          "name": "c-color-gray900",
+          "val": "#1D1D1D",
+          "variable": "var(--c-color-gray900)"
+        },
         "info500": {
           "isVar": true,
           "key": "$info500",
@@ -46450,6 +46457,20 @@
           "name": "c-color-error500",
           "val": "#EF4444",
           "variable": "var(--c-color-error500)"
+        },
+        "warning500": {
+          "isVar": true,
+          "key": "$warning500",
+          "name": "c-color-warning500",
+          "val": "#F59E0B",
+          "variable": "var(--c-color-warning500)"
+        },
+        "success500": {
+          "isVar": true,
+          "key": "$success500",
+          "name": "c-color-success500",
+          "val": "#34C85A",
+          "variable": "var(--c-color-success500)"
         }
       },
       "radius": {
@@ -48913,6 +48934,13 @@
         "val": "#6C6C6C",
         "variable": "var(--c-color-gray500)"
       },
+      "$color.gray900": {
+        "isVar": true,
+        "key": "$gray900",
+        "name": "c-color-gray900",
+        "val": "#1D1D1D",
+        "variable": "var(--c-color-gray900)"
+      },
       "$color.info500": {
         "isVar": true,
         "key": "$info500",
@@ -48926,6 +48954,20 @@
         "name": "c-color-error500",
         "val": "#EF4444",
         "variable": "var(--c-color-error500)"
+      },
+      "$color.warning500": {
+        "isVar": true,
+        "key": "$warning500",
+        "name": "c-color-warning500",
+        "val": "#F59E0B",
+        "variable": "var(--c-color-warning500)"
+      },
+      "$color.success500": {
+        "isVar": true,
+        "key": "$success500",
+        "name": "c-color-success500",
+        "val": "#34C85A",
+        "variable": "var(--c-color-success500)"
       },
       "$radius.0": {
         "isVar": true,

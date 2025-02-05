@@ -47,7 +47,7 @@ export const FlatCard = () => {
                                     Акция
                                 </SizableText>
                             </View>
-                            <View bg={"$error500"} style={styles.tag}>
+                            <View bg={"$warning500"} style={styles.tag}>
                                 <ArmChairIcon />
                                 <SizableText fontSize={12} color={"$white1"}>
                                     С отделкой
